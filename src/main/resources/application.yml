@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+  datasource:
+    url: jdbc:mysql://localhost/contacts
+    username: root
+    password: 
+    driver-class-name: com.mysql.jdbc.Driver
